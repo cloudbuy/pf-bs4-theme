@@ -165,27 +165,38 @@ $btn-font-weight:                normal !default;
 $btn-box-shadow:                 inset 0 1px 0 rgba($color-pf-white, .15), $pf-box-shadow;
 $btn-active-box-shadow:          $pf-box-shadow-inset-lg;
 
-
+$btn-primary-color:              #fff;
+$btn-primary-bg:                 $brand-primary !default;
 $btn-primary-start-bg:           $color-pf-blue-300;
 $btn-primary-end-bg:             $brand-primary;
 $btn-primary-border:             $color-pf-blue-500;
 
+$btn-secondary-color:            $gray-dark;
+$btn-secondary-bg:               #fff !default;
 $btn-secondary-start-bg:         $pf-gradient-color-start;
 $btn-secondary-end-bg:           $pf-gradient-color-end;
 $btn-secondary-border:           $color-pf-black-400;
 
+$btn-info-color:                 #fff;
+$btn-info-bg:                    $brand-info !default;
 $btn-info-start-bg:              $color-pf-blue-400;
 $btn-info-end-bg:                $brand-info;
 $btn-info-border:                $color-pf-blue-600;
 
+$btn-success-color:              #fff;
+$btn-success-bg:                 $brand-success !default;
 $btn-success-start-bg:           $color-pf-green-300;
 $btn-success-end-bg:             $brand-success;
 $btn-success-border:             $color-pf-green-500;
 
+$btn-warning-color:              #fff;
+$btn-warning-bg:                 $brand-warning !default;
 $btn-warning-start-bg:           $color-pf-orange-300;
 $btn-warning-end-bg:             $brand-warning;
 $btn-warning-border:             $color-pf-orange-500;
 
+$btn-danger-color:               #fff;
+$btn-danger-bg:                  $brand-danger !default;
 $btn-danger-start-bg:            $color-pf-red-100;
 $btn-danger-end-bg:              $color-pf-red-200;
 $btn-danger-border:              $color-pf-red-300;
@@ -275,3 +286,7 @@ $pagination-active-border:             $btn-secondary-border !default;
 // $pagination-disabled-color:            $gray-light !default;
 // $pagination-disabled-bg:               #fff !default;
 $pagination-disabled-border:           $color-pf-black-300;
+
+
+// Legacy variables
+$cursor-disabled:                not-allowed !default;
