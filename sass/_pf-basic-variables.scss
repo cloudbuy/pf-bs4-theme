@@ -118,13 +118,13 @@ $border-width: 1px;
  $font-family-sans-serif: overpass, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
 
 // Pixel value used to responsively scale all typography. Applied to the `<html>` element.
-$font-size-root: 14px;
+$font-size-base: 0.9rem;
 
-$font-size-h1: 2rem; // ~24px
-$font-size-h2: 1.8333rem; // ~22px
-$font-size-h3: 1.3333rem; // ~16px
-$font-size-h4: 1.2rem;
-$font-size-h5: 1.0833rem; // ~13px
+$h1-font-size: 2rem; // ~24px
+$h2-font-size: 1.8333rem; // ~22px
+$h3-font-size: 1.3333rem; // ~16px
+$h4-font-size: 1.2rem;
+$h5-font-size: 1.0833rem; // ~13px
 
 $line-height-base: 1.66666667;
 
