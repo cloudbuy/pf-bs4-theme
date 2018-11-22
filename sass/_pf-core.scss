@@ -8,14 +8,12 @@
 
 // Core variables and mixins
 @import "pf-basic-colors";
-@import "pf-basic-variables";
-
 @import "node_modules/bootstrap/scss/functions";
 @import "node_modules/bootstrap/scss/variables";
+@import "pf-basic-variables";
 @import "node_modules/bootstrap/scss/mixins";
-@import "node_modules/bootstrap/scss/reboot";
-
 @import "pf-basic-mixins";
+@import "node_modules/bootstrap/scss/reboot";
 
 // Core CSS
 @import "node_modules/bootstrap/scss/root";
