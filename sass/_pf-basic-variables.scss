@@ -119,6 +119,7 @@ $border-width: 1px;
 
 // Pixel value used to responsively scale all typography. Applied to the `<html>` element.
 $font-size-base: 0.8rem;
+$dropdown-font-size: $font-size-base !default;
 
 $h1-font-size: 2rem; // ~24px
 $h2-font-size: 1.8333rem; // ~22px
